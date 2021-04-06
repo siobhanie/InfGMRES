@@ -1,6 +1,11 @@
 using LinearAlgebra
 """
-    (H,V)=iar(prob,startvec,N)
+        (V,H,hist)=iar(prob,startvec,N)
+        
+### Infinite Arnoldi method
+Infinite Arnoldi method, as described in Algorithm 2 in  "A linear eigenvalue algorithm for the nonlinear eigenvalue problem",
+    by Jarlebring, Elias and Michiels, Wim and Meerbergen, Karl.
+
 Runs `N` steps of the infinite Arnoldi method started with `startvec` with target `σ=0`.
 The argument `prob` represents a problem `M(λ)` and has associated functions
 `compute_Mder`, `compute_Mlincomb`:

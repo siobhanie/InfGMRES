@@ -32,7 +32,6 @@ function infgmres(prob,m;method=:iar)
 
     hist[:precomp_time]=[precomp_time];
 
-    #tiar(Float64,prob,btilde,Afact=Afact,maxit=m)
 
     e = zeros(m+1,1); e[1] = 1;
 

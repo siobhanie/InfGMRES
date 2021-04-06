@@ -1,6 +1,10 @@
 using LinearAlgebra
 """
-    (H,V)=iar_lr(prob,startvec,N)
+    (V,H,hist)=iar_lr(prob,startvec,N)
+    
+### Low-rank Infinite Arnoldi
+Low-rank version of Infinite Arnoldi method as described in Algorithm 2 (Taylor coefficients) in "A rank-exploiting infinite Arnoldi algorithm for nonlinear eigenvalue problems", R. Van Beeumen, E. Jarlebring, and W. Michiels
+
 Runs `N` steps of the infinite Arnoldi method started with `startvec` with target `σ=0`, specifically for the low-rank problem.
 The argument `prob` represents a problem `M(λ)` and has associated functions
 `compute_Mder`, `compute_Mlincomb`:
