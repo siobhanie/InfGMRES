@@ -1,4 +1,4 @@
-# Figures 5.5a, 5.6a and 5.6b in "Infinite GMRES for parameter-dependent linear systems"
+# Figures 5.5a, 5.6a and 5.6b in "Infinite GMRES for parameterized linear systems"
 using SparseArrays
 using LinearAlgebra
 using PyPlot

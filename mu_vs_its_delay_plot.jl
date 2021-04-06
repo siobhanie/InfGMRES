@@ -1,4 +1,4 @@
-# Figure 5.3a in "Infinite GMRES for parameter-dependent linear systems"
+# Figure 5.3a in "Infinite GMRES for parameterized linear systems"
 
 using SparseArrays
 using LinearAlgebra

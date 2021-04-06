@@ -1,4 +1,4 @@
-# Figures 5.4a and 5.4b "Infinite GMRES for parameter-dependent linear systems"
+# Figures 5.4a and 5.4b "Infinite GMRES for parameterized linear systems"
 using PyPlot
 pygui(true)
 
